@@ -14,7 +14,7 @@ const Player = () => {
         controls={true}
         className='player'
       />
-      <p className="player_error">{!video.currentVideo ? 'Pick a movie' : ''}{video.currentVideo && !video.currentVideo.ContentUrl ? 'Video unavailable - try a different one!': ''}</p>
+      <p className="player_error">{!video.currentVideo ? 'Pick a movie, I only work for files in m3u8 format' : ''}{video.currentVideo && !video.currentVideo.ContentUrl ? 'Video unavailable - try a different one!': ''}</p>
     </div>
   )
 }

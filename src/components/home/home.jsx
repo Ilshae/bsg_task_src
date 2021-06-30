@@ -24,11 +24,7 @@ const Home = ({ token, addMediaList }) => {
       <Player />
       {mediaList 
         ? mediaList.map(media => (
-          <>
-      
-          <h1>scale-down</h1>
           <Media media={media}/>
-          </>
         )) : ''
       }
     </div>

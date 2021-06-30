@@ -15,7 +15,7 @@ const Splash = ({ redirect, addToken, addRedirect }) => {
     <div className="splash">
     {redirect ? <Redirect to="/home" /> : ''}
       <h1 className="splash__title">Hello! This is a super cool OTM player</h1>
-      <p className="splash__description">To use watch our videos you have to sign in as anonymous or sign in with your existing account</p>
+      <p className="splash__description">To watch the videos you have to sign in as anonymous or sign in with your existing account</p>
       <button
         type="button"
         className="splash__btn"
