@@ -1,0 +1,23 @@
+.player__container {
+  margin-left: auto;
+  width: 100%;
+  text-align: center;
+  padding: 40px 30px 30px 30px;
+}
+
+.player {
+  width: 800px;
+  height: 400px;
+  background-color: black;
+  z-index: 1000000;
+  cursor: pointer;
+  opacity: 1;
+  margin: auto;
+}
+
+.player_error {
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

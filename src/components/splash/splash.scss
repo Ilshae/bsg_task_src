@@ -1,0 +1,38 @@
+.splash {
+  color: #fff;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 150px;
+  margin: auto;
+}
+.splash__title {
+  padding-bottom: 2rem;
+}
+
+.splash__description {
+  padding-bottom: 2.5rem;
+}
+
+.splash__btn {
+  cursor: pointer;
+  color: #fff;
+  outline: none;
+  border: none;
+  font-weight: 700;
+  border-radius: 0.2vw;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  margin-right: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-color: rgba(51, 51, 51, 0.5);
+  font-size: 20px;
+}
+.splash__btn:hover {
+  color: #000;
+  background-color: #e6e6ee;
+  transition: all 0.2s;
+}

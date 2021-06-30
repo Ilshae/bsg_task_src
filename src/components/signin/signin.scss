@@ -1,0 +1,39 @@
+.signin__form {
+  width: 400px;
+  text-align: center;
+  margin: 0 auto;
+  padding: 100px;
+}
+
+.signin__input {
+  margin-right: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  font-size: 16px;
+}
+
+.signin__input__label {
+  padding-right: 1rem;
+}
+
+.signin__submit {
+  cursor: pointer;
+  color: #fff;
+  outline: none;
+  border: none;
+  font-weight: 700;
+  border-radius: 0.2vw;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-top: 1rem;
+  margin-right: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  background-color: rgba(51, 51, 51, 0.5);
+  font-size: 16px;
+}
+.signin__submit:hover {
+  color: #000;
+  background-color: #e6e6ee;
+  transition: all 0.2s;
+}
